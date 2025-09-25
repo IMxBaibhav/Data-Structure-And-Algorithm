@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Loop {
     public static void main(String[] args) {
         //syntax for loop 
@@ -11,12 +9,26 @@ public class Loop {
         //}
         // print numbers from 1 to n
         
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the value of n"); 
+      /*  Scanner in = new Scanner(System.in);
+        
         int n = in.nextInt();
-        for(int num=0; num<=n; num++ ){
+      /*   for(int num=0; num<=n; num++ ){
             System.out.print(num +" ");
         }
         
-  in.close();  }
+  in.close(); 
+*/ 
+// While Loop
+/* Syntax: 
+while(condition){
+}
+
+ */
+int num = 1;
+while(num<=5){
+    System.out.println(num);
+    num +=1;
+}
+
+}
 }
