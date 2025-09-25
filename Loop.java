@@ -24,11 +24,23 @@ while(condition){
 }
 
  */
-int num = 1;
+/*int num = 1;
 while(num<=5){
     System.out.println(num);
     num +=1;
 }
+// do while 
+/* do{ while(conditon);
+ * 
+} */
+int n = 1;
+do { 
+    System.out.println(n);
+    n++;
+} while (n <= 5);
+
+
+
 
 }
 }
