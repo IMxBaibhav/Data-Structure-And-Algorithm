@@ -14,7 +14,7 @@ public class largestNum {
 
         // find the largest of the three number.
  int max = a;
- if(b> max){
+ if(b> max){ 
     max=b;
  }if(c> max){
     max = c;
