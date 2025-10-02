@@ -15,7 +15,10 @@ break;
 case "Apple":
 System.out.println("A red Sweet fruit...");
 break;
-}
+default:
+System.out.println("Please enter the valid fruit..");
+
+} 
         
     }
 }
