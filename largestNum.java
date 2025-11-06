@@ -16,7 +16,7 @@ public class largestNum {
  int max = a;
  if(b> max){ 
     max=b;
- }if(c> max){
+ }if(c> max){ 
     max = c;
  }
  System.out.println(max + " Is the maximum of all these three numbers.");

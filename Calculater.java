@@ -15,7 +15,7 @@ public class Calculater {
                 int num2 = in.nextInt();
 
                 if(op == '+') {
-                    ans = num1 + num2;
+                    ans = num1 + num;
                 } else if(op == '-') {
                     ans = num1 - num2;
                 } else if(op == '*') {
