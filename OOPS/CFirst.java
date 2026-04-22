@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 
 public class CFirst{
 public static void main(String[] args) {
@@ -11,12 +10,12 @@ public static void main(String[] args) {
 */
     // aise me har baar students ke liye alag alag likhna pdega agar hum ek student naam ka ek alag class bna le jisme teeno properties ho toh ek sath call kr skte hai
 
-Student[] students = new Student[5];
+//Student[] students = new Student[5];
 // like this iske liye ek alag se class bna lete hai aur usi ko call kr lete hai
 
-Student baibhav;
+Student baibhav = new Student();
+System.out.println(baibhav.rollno);
 
-System.out.println(Arrays.toString(students));
 // ab isme baibhav ke pass teeno properties hai
 
 }
@@ -30,6 +29,14 @@ class Student{
  int rollno;
     String name;
     float marks;
+
+    Student(){
+// this is the constructor
+this.rollno= 13;
+this.name= "baibhav";
+this.marks= 99.8f;
+
+    }
 
 
 }
